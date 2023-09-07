@@ -201,6 +201,8 @@ class IniReader {
 			}
 			this._EscreverLinha("`n", this.caminhoArqIni)
 		}
+		;
+		this.houveramMudancas		:=	False
 	}
 
 	_EscreverLinha(conteudo, caminho, encoding := ""){
